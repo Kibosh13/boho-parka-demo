@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="15" fill="#78291C"/>
+  <path d="M14 14h36v36H14z" fill="none" stroke="#F3AE00" stroke-width="2"/>
+  <text x="32" y="31" text-anchor="middle" fill="#F4F0E8" font-family="Arial, sans-serif" font-size="12" font-weight="800">BOHO!</text>
+  <text x="32" y="44" text-anchor="middle" fill="#F4F0E8" font-family="Arial, sans-serif" font-size="10" font-weight="800">PARKA</text>
+</svg>
