@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">БОХО ПАРКА</title>
+  <rect width="64" height="64" rx="10" fill="#781d1c"/>
+  <path d="M8 18 15 9h34l7 9v28l-7 9H15l-7-9Z" fill="#1f1a17" stroke="#f3ae00" stroke-width="2"/>
+  <text x="32" y="39" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="20" letter-spacing="1">БП</text>
+</svg>
