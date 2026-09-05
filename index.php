@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#1f1a17">
+  <meta name="theme-color" content="#f6f2eb">
   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
   <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet">
   <meta name="description" content="Перекрой шубы на съёмную меховую подкладку к парке. Мастерская Натальи Неклюдовой — БОХО ПАРКА.">
@@ -13,7 +13,7 @@
   <meta property="og:image" content="assets/images/hero-parka.jpg">
   <title>Перекрой шубы — БОХО ПАРКА</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260905-3">
 </head>
 <body>
   <svg class="svg-sprite" aria-hidden="true" focusable="false">
@@ -65,8 +65,8 @@
         </div>
       </div>
       <div class="hero-visual">
-        <button class="image-button hero-image-main" type="button" data-lightbox="assets/images/hero-parka.jpg" aria-label="Увеличить фотографию"><img src="assets/images/hero-parka.jpg" alt="Готовая парка после перекроя шубы" width="1200" height="1800"><span class="zoom-mark"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button>
-        <button class="image-button hero-image-small" type="button" data-lightbox="assets/images/heritage-fur-coat.jpg" aria-label="Увеличить фотографию"><img src="assets/images/heritage-fur-coat.jpg" alt="Шуба до перекроя" width="1200" height="1800"></button>
+        <button class="image-button hero-image-main" type="button" data-lightbox="assets/images/hero-parka.jpg" aria-label="Увеличить фотографию"><img src="assets/images/hero-parka.jpg" alt="Парка после перекроя и шуба до перекроя" width="2048" height="2048"><span class="zoom-mark"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button>
+        <button class="image-button hero-image-small" type="button" data-lightbox="assets/images/heritage-fur-coat.jpg" aria-label="Увеличить фотографию"><img src="assets/images/heritage-fur-coat.jpg" alt="Светлая парка и шуба до перекроя" width="2048" height="2048"></button>
       </div>
     </section>
 
@@ -74,7 +74,12 @@
       <div class="concerns-grid">
         <div class="concerns-intro"><p class="eyebrow">Возможно, ваша шубка устарела</p><h2 id="concerns-title">Или нет желания расставаться<br><em>со старой маминой шубкой?</em></h2></div>
         <div class="concerns-copy"><p>Когда-то ваша мама блистала в этой шубке. Теперь ваша очередь! Шубка станет основой к новой парке.</p></div>
-        <button class="image-button concerns-photo" type="button" data-lightbox="assets/images/before-after-collage.jpg" aria-label="Увеличить фотографии"><img src="assets/images/before-after-collage.jpg" alt="Шубы до перекроя и готовые парки" loading="lazy"></button>
+        <div class="concerns-photo-grid">
+          <button class="image-button" type="button" data-lightbox="assets/images/concern-01.jpg" aria-label="Увеличить фотографии"><img src="assets/images/concern-01.jpg" alt="Шуба до перекроя и готовая парка" width="2048" height="2048" loading="lazy"></button>
+          <button class="image-button" type="button" data-lightbox="assets/images/concern-02.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-02.jpg" alt="Шуба до перекроя" width="1643" height="2200" loading="lazy"></button>
+          <button class="image-button" type="button" data-lightbox="assets/images/concern-03.jpg" aria-label="Увеличить фотографии"><img src="assets/images/concern-03.jpg" alt="Шуба до перекроя и готовая парка" width="2048" height="2048" loading="lazy"></button>
+          <button class="image-button" type="button" data-lightbox="assets/images/concern-04.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-04.jpg" alt="Готовая парка после перекроя" width="1643" height="2200" loading="lazy"></button>
+        </div>
       </div>
     </section>
 
@@ -207,14 +212,13 @@
     </section>
 
     <section class="contacts section section-dark" id="contacts" aria-labelledby="contacts-title">
-      <div class="contact-logo"><img src="assets/images/logo-boho-parka-transparent.png" alt="БОХО ПАРКА" width="2600" height="1700"></div>
       <div class="contact-copy"><h2 id="contacts-title">БОХО ПАРКА</h2><div class="contact-links"><a href="tel:+79154062343"><svg aria-hidden="true"><use href="#i-phone"/></svg><span>+7 (915) 406-23-43</span></a><a href="mailto:bohoparka.official@gmail.com"><svg aria-hidden="true"><use href="#i-mail"/></svg><span>bohoparka.official@gmail.com</span></a><a href="https://yandex.ru/maps/?text=Москва%2C%20Зеленоград%2C%20проезд%204807%2C%20д.%203%2C%20стр.%208" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg><span>124460, Москва, Зеленоград, проезд 4807, д. 3, стр. 8</span></a></div><div class="social-links" aria-label="Социальные сети"><a href="https://t.me/boho_parka" target="_blank" rel="noopener" aria-label="Telegram"><svg aria-hidden="true"><use href="#i-tg"/></svg></a><a href="https://vk.com/bohoparka" target="_blank" rel="noopener" aria-label="ВКонтакте"><svg aria-hidden="true"><use href="#i-vk"/></svg></a><a href="https://www.youtube.com/channel/UCeJ-adLrxJH6ClPzHGKlp_w/featured" target="_blank" rel="noopener" aria-label="YouTube"><svg aria-hidden="true"><use href="#i-youtube"/></svg></a></div></div>
     </section>
   </main>
 
-  <footer class="site-footer"><div><span>БОХО ПАРКА</span><small>ИП Неклюдова Наталья Ивановна · ИНН 773573837729 · ОГРН 317774600403122</small></div><a href="https://bohoparka.com/" target="_blank" rel="noopener">bohoparka.com</a><button type="button" data-scroll="top">Наверх <svg aria-hidden="true"><use href="#i-arrow"/></svg></button></footer>
+  <footer class="site-footer"><div class="footer-identity"><img src="assets/images/logo-boho-parka-transparent.png" alt="БОХО ПАРКА" width="2600" height="1700"><div class="footer-details"><p>ИП Неклюдова Наталья Ивановна BOHO-PARKA</p><p>ИНН 773573837729, ОГРН 317774600403122</p><p>124482, г. Москва, г. Зеленоград, к. 531, кв. 58</p></div></div><a href="https://bohoparka.com/" target="_blank" rel="noopener">bohoparka.com</a><button type="button" data-scroll="top">Наверх <svg aria-hidden="true"><use href="#i-arrow"/></svg></button></footer>
 
-  <dialog class="lightbox" id="lightbox" aria-label="Просмотр фотографии"><button class="lightbox-close" type="button" data-lightbox-close aria-label="Закрыть"><svg aria-hidden="true"><use href="#i-close"/></svg></button><button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Предыдущая фотография"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button><figure><img src="" alt="" data-lightbox-image><figcaption data-lightbox-caption></figcaption></figure><button class="lightbox-nav lightbox-next" type="button" data-lightbox-next aria-label="Следующая фотография"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button></dialog>
-  <script src="assets/js/main.js"></script>
+  <dialog class="lightbox" id="lightbox" aria-label="Просмотр фотографии"><button class="lightbox-close" type="button" data-lightbox-close aria-label="Закрыть"><svg aria-hidden="true"><use href="#i-close"/></svg></button><button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Предыдущая фотография"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button><figure><img alt="" data-lightbox-image><figcaption data-lightbox-caption></figcaption></figure><button class="lightbox-nav lightbox-next" type="button" data-lightbox-next aria-label="Следующая фотография"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button></dialog>
+  <script src="assets/js/main.js?v=20260905-3"></script>
 </body>
 </html>

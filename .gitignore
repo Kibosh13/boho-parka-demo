@@ -13,3 +13,5 @@ build/
 .cache/
 .next/
 coverage/
+__MACOSX/
+._*

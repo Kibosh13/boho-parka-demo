@@ -117,7 +117,7 @@
     } else {
       dialog.removeAttribute('open');
     }
-    if (dialogImage) dialogImage.src = '';
+    if (dialogImage) dialogImage.removeAttribute('src');
   };
 
   sourceButtons.forEach((button) => {
@@ -137,7 +137,7 @@
 
     dialog.addEventListener('close', () => {
       body.classList.remove('lightbox-open');
-      if (dialogImage) dialogImage.src = '';
+      if (dialogImage) dialogImage.removeAttribute('src');
     });
 
     dialog.addEventListener('cancel', () => {
