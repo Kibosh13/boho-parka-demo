@@ -10,10 +10,10 @@
   <meta property="og:title" content="Перекрой шубы — БОХО ПАРКА">
   <meta property="og:description" content="Перешьём вашу шубу на подкладку к парке.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/images/hero-parka.jpg">
+  <meta property="og:image" content="assets/images/hero-parka.png">
   <title>Перекрой шубы — БОХО ПАРКА</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css?v=20260905-3">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260907-2">
 </head>
 <body>
   <svg class="svg-sprite" aria-hidden="true" focusable="false">
@@ -65,8 +65,8 @@
         </div>
       </div>
       <div class="hero-visual">
-        <button class="image-button hero-image-main" type="button" data-lightbox="assets/images/hero-parka.jpg" aria-label="Увеличить фотографию"><img src="assets/images/hero-parka.jpg" alt="Чёрная БОХО ПАРКА с меховой подстёжкой на Красной площади" width="956" height="1280"><span class="zoom-mark"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button>
-        <button class="image-button hero-image-small" type="button" data-lightbox="assets/images/heritage-fur-coat.jpg" aria-label="Увеличить фотографию"><img src="assets/images/heritage-fur-coat.jpg" alt="Шуба до перекроя на Красной площади" width="956" height="1280"></button>
+        <button class="image-button hero-image-main" type="button" data-lightbox="assets/images/hero-parka.png" aria-label="Увеличить фотографию"><img src="assets/images/hero-parka.png" alt="Парка БОХО ПАРКА с натуральной меховой подстёжкой" width="956" height="1280"><span class="zoom-mark"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button>
+        <button class="image-button hero-image-small" type="button" data-lightbox="assets/images/heritage-fur-coat.png" aria-label="Увеличить фотографию"><img src="assets/images/heritage-fur-coat.png" alt="Шуба до перекроя" width="956" height="1280"></button>
       </div>
     </section>
 
@@ -75,10 +75,14 @@
         <div class="concerns-intro"><p class="eyebrow">Возможно, ваша шубка устарела</p><h2 id="concerns-title">Или нет желания расставаться<br><em>со старой маминой шубкой?</em></h2></div>
         <div class="concerns-copy"><p>Когда-то ваша мама блистала в этой шубке. Теперь ваша очередь! Шубка станет основой к новой парке.</p></div>
         <div class="concerns-photo-grid">
-          <button class="image-button" type="button" data-lightbox="assets/images/concern-01.jpg" aria-label="Увеличить фотографии"><img src="assets/images/concern-01.jpg" alt="Шуба до перекроя и готовая парка" width="2048" height="2048" loading="lazy"></button>
-          <button class="image-button" type="button" data-lightbox="assets/images/concern-02.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-02.jpg" alt="Шуба до перекроя" width="1643" height="2200" loading="lazy"></button>
-          <button class="image-button" type="button" data-lightbox="assets/images/concern-03.jpg" aria-label="Увеличить фотографии"><img src="assets/images/concern-03.jpg" alt="Шуба до перекроя и готовая парка" width="2048" height="2048" loading="lazy"></button>
-          <button class="image-button" type="button" data-lightbox="assets/images/concern-04.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-04.jpg" alt="Готовая парка после перекроя" width="1643" height="2200" loading="lazy"></button>
+          <div class="concern-photo-pair">
+            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-01.jpg" aria-label="Увеличить фото 3"><img src="assets/images/concern-01.jpg" alt="Фото 3 — варианты до и после перекроя" width="2048" height="2048" loading="lazy"></button>
+            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-02.jpg" aria-label="Увеличить фото 5"><img src="assets/images/concern-02.jpg" alt="Фото 5 — шуба до перекроя" width="1643" height="2200" loading="lazy"></button>
+          </div>
+          <div class="concern-photo-pair">
+            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-03.jpg" aria-label="Увеличить фото 4"><img src="assets/images/concern-03.jpg" alt="Фото 4 — шуба и готовая парка" width="2048" height="2048" loading="lazy"></button>
+            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-04.jpg" aria-label="Увеличить фото 6"><img src="assets/images/concern-04.jpg" alt="Фото 6 — готовая парка после перекроя" width="1643" height="2200" loading="lazy"></button>
+          </div>
         </div>
       </div>
     </section>
@@ -219,6 +223,6 @@
   <footer class="site-footer"><div class="footer-identity"><img src="assets/images/logo-boho-parka-transparent.png" alt="БОХО ПАРКА" width="2600" height="1700"><div class="footer-details"><p>ИП Неклюдова Наталья Ивановна BOHO-PARKA</p><p>ИНН 773573837729, ОГРН 317774600403122</p><p>124482, г. Москва, г. Зеленоград, к. 531, кв. 58</p></div></div><a href="https://bohoparka.com/" target="_blank" rel="noopener">bohoparka.com</a><button type="button" data-scroll="top">Наверх <svg aria-hidden="true"><use href="#i-arrow"/></svg></button></footer>
 
   <dialog class="lightbox" id="lightbox" aria-label="Просмотр фотографии"><button class="lightbox-close" type="button" data-lightbox-close aria-label="Закрыть"><svg aria-hidden="true"><use href="#i-close"/></svg></button><button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Предыдущая фотография"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button><figure><img alt="" data-lightbox-image><figcaption data-lightbox-caption></figcaption></figure><button class="lightbox-nav lightbox-next" type="button" data-lightbox-next aria-label="Следующая фотография"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button></dialog>
-  <script src="assets/js/main.js?v=20260905-3"></script>
+  <script src="assets/js/main.js?v=20260907"></script>
 </body>
 </html>

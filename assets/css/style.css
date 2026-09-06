@@ -543,7 +543,7 @@ h3 {
   right: 0;
   width: min(84%, 570px);
   height: auto;
-  aspect-ratio: 1;
+  aspect-ratio: 956 / 1280;
   border: 1px solid var(--line);
 }
 
@@ -553,13 +553,13 @@ h3 {
   bottom: 3%;
   width: 47%;
   height: auto;
-  aspect-ratio: 1;
+  aspect-ratio: 956 / 1280;
   border: 8px solid var(--paper-light);
 }
 
 .hero-visual .image-button img {
-  height: auto;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
   background: var(--paper-deep);
 }
 
@@ -614,13 +614,43 @@ h3 {
 
 .concerns-photo-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: .65rem;
-  height: clamp(520px, 52vw, 760px);
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+  height: clamp(760px, 50vw, 980px);
 }
 
-.concerns-photo-grid .image-button { height: 100%; }
+.concern-photo-pair {
+  position: relative;
+  min-height: 0;
+}
+
+.concern-photo-main {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 88%;
+  height: auto;
+  aspect-ratio: 1;
+  transform: translateY(-50%);
+}
+
+.concern-photo-main img {
+  object-fit: contain;
+  background: var(--paper-deep);
+}
+
+.concern-photo-small {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 2%;
+  width: 38%;
+  height: auto;
+  aspect-ratio: 1643 / 2200;
+  border: 6px solid var(--paper);
+}
+
+.concern-photo-small img { object-fit: cover; }
 
 .image-caption {
   position: absolute;
@@ -1575,7 +1605,8 @@ h3 {
   .contacts { grid-template-columns: 1fr; }
 
   .questions-answer { grid-column: 1; }
-  .about-photo { height: min(920px, 105vw); }
+  .about-photo { height: auto; aspect-ratio: 1344 / 1800; }
+  .about-photo img { object-fit: contain; }
   .about-copy { max-width: 820px; }
 
   .promise-heading { grid-template-columns: 1fr; }
@@ -1641,13 +1672,17 @@ h3 {
   .hero-note { display: none; }
 
   .concerns-grid { grid-template-columns: 1fr; }
-  .concerns-photo-grid { grid-column: auto; grid-row: auto; height: 680px; }
+  .concerns-photo-grid {
+    grid-column: auto;
+    grid-row: auto;
+    height: clamp(780px, 175vw, 1140px);
+  }
   .concerns-copy { padding-bottom: 0; }
 
   .questions-layout { gap: 3rem; }
   .question-list li { grid-template-columns: 2.5rem 1fr; }
 
-  .about-photo { height: 125vw; }
+  .about-photo { height: auto; aspect-ratio: 1344 / 1800; }
   .vertical-label { display: none; }
   .about-copy .large-copy { margin-top: 2rem; }
   .about-copy blockquote { padding-left: 1.25rem; }
@@ -1727,7 +1762,7 @@ h3 {
   .wordmark span { font-size: 1rem; }
   .hero { padding-top: 7rem; }
   .hero-visual { min-height: 480px; }
-  .concerns-photo-grid { height: 560px; }
+  .concerns-photo-grid { height: 780px; }
   .product-grid { grid-auto-rows: 255px; gap: .55rem; }
   .proof-grid .image-button { height: 330px; }
   .process-gallery { height: 620px; }
