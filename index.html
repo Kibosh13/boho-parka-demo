@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f6f2eb">
-  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
-  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet">
+    <meta name="theme-color" content="#f6f2eb">
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet">
   <meta name="description" content="Перекрой шубы на съёмную меховую подкладку к парке. Мастерская Натальи Неклюдовой — БОХО ПАРКА.">
   <meta property="og:title" content="Перекрой шубы — БОХО ПАРКА">
   <meta property="og:description" content="Перешьём вашу шубу на подкладку к парке.">
@@ -13,7 +13,7 @@
   <meta property="og:image" content="assets/images/hero-parka.png">
   <title>Перекрой шубы — БОХО ПАРКА</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css?v=20260907-2">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260907-3">
 </head>
 <body>
   <svg class="svg-sprite" aria-hidden="true" focusable="false">
@@ -76,12 +76,12 @@
         <div class="concerns-copy"><p>Когда-то ваша мама блистала в этой шубке. Теперь ваша очередь! Шубка станет основой к новой парке.</p></div>
         <div class="concerns-photo-grid">
           <div class="concern-photo-pair">
-            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-01.jpg" aria-label="Увеличить фото 3"><img src="assets/images/concern-01.jpg" alt="Фото 3 — варианты до и после перекроя" width="2048" height="2048" loading="lazy"></button>
-            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-02.jpg" aria-label="Увеличить фото 5"><img src="assets/images/concern-02.jpg" alt="Фото 5 — шуба до перекроя" width="1643" height="2200" loading="lazy"></button>
+            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-01.jpg" aria-label="Увеличить первую фотографию"><img src="assets/images/concern-01.jpg" alt="Мужская красная парка с натуральным мехом" width="1466" height="2200" loading="lazy"></button>
+            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-02.jpg" aria-label="Увеличить вторую фотографию"><img src="assets/images/concern-02.jpg" alt="Парка с объёмной меховой отделкой для зимы" width="2200" height="2200" loading="lazy"></button>
           </div>
           <div class="concern-photo-pair">
-            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-03.jpg" aria-label="Увеличить фото 4"><img src="assets/images/concern-03.jpg" alt="Фото 4 — шуба и готовая парка" width="2048" height="2048" loading="lazy"></button>
-            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-04.jpg" aria-label="Увеличить фото 6"><img src="assets/images/concern-04.jpg" alt="Фото 6 — готовая парка после перекроя" width="1643" height="2200" loading="lazy"></button>
+            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-03.jpg" aria-label="Увеличить третью фотографию"><img src="assets/images/concern-03.jpg" alt="Женская чёрная парка с натуральным мехом" width="1650" height="2200" loading="lazy"></button>
+            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-04.jpg" aria-label="Увеличить четвёртую фотографию"><img src="assets/images/concern-04.jpg" alt="Мужская чёрная парка с натуральным мехом" width="1531" height="2200" loading="lazy"></button>
           </div>
         </div>
       </div>

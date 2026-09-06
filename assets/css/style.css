@@ -616,7 +616,7 @@ h3 {
   display: grid;
   grid-template-rows: repeat(2, minmax(0, 1fr));
   gap: 1.2rem;
-  height: clamp(760px, 50vw, 980px);
+  height: clamp(790px, 57vw, 1220px);
 }
 
 .concern-photo-pair {
@@ -626,31 +626,36 @@ h3 {
 
 .concern-photo-main {
   position: absolute;
-  top: 50%;
-  left: 0;
-  width: 88%;
+  top: 0;
+  right: 0;
+  left: auto;
+  width: 76%;
   height: auto;
   aspect-ratio: 1;
-  transform: translateY(-50%);
+  transform: none;
 }
 
 .concern-photo-main img {
-  object-fit: contain;
-  background: var(--paper-deep);
+  object-fit: cover;
+  object-position: center top;
 }
 
 .concern-photo-small {
   position: absolute;
   z-index: 2;
-  right: 0;
-  bottom: 2%;
-  width: 38%;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  width: 43%;
   height: auto;
-  aspect-ratio: 1643 / 2200;
-  border: 6px solid var(--paper);
+  aspect-ratio: 1;
+  border: 7px solid var(--paper);
 }
 
-.concern-photo-small img { object-fit: cover; }
+.concern-photo-small img {
+  object-fit: cover;
+  object-position: center top;
+}
 
 .image-caption {
   position: absolute;
@@ -1675,7 +1680,7 @@ h3 {
   .concerns-photo-grid {
     grid-column: auto;
     grid-row: auto;
-    height: clamp(780px, 175vw, 1140px);
+    height: clamp(780px, 195vw, 1260px);
   }
   .concerns-copy { padding-bottom: 0; }
 
