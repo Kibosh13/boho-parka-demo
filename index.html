@@ -65,8 +65,8 @@
         </div>
       </div>
       <div class="hero-visual">
-        <button class="image-button hero-image-main" type="button" data-lightbox="assets/images/hero-parka.jpg" aria-label="Увеличить фотографию"><img src="assets/images/hero-parka.jpg" alt="Парка после перекроя и шуба до перекроя" width="2048" height="2048"><span class="zoom-mark"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button>
-        <button class="image-button hero-image-small" type="button" data-lightbox="assets/images/heritage-fur-coat.jpg" aria-label="Увеличить фотографию"><img src="assets/images/heritage-fur-coat.jpg" alt="Светлая парка и шуба до перекроя" width="2048" height="2048"></button>
+        <button class="image-button hero-image-main" type="button" data-lightbox="assets/images/hero-parka.jpg" aria-label="Увеличить фотографию"><img src="assets/images/hero-parka.jpg" alt="Чёрная БОХО ПАРКА с меховой подстёжкой на Красной площади" width="956" height="1280"><span class="zoom-mark"><svg aria-hidden="true"><use href="#i-zoom"/></svg></span></button>
+        <button class="image-button hero-image-small" type="button" data-lightbox="assets/images/heritage-fur-coat.jpg" aria-label="Увеличить фотографию"><img src="assets/images/heritage-fur-coat.jpg" alt="Шуба до перекроя на Красной площади" width="956" height="1280"></button>
       </div>
     </section>
 
