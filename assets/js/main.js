@@ -56,6 +56,51 @@
     });
   }
 
+  const createGalleryButton = (source, alt, duplicate) => {
+    const button = document.createElement('button');
+    const image = document.createElement('img');
+    button.type = 'button';
+    button.className = 'image-button';
+    button.setAttribute('data-lightbox', source);
+    if (duplicate) button.tabIndex = -1;
+    image.src = source;
+    image.alt = duplicate ? '' : alt;
+    image.loading = 'lazy';
+    button.appendChild(image);
+    return button;
+  };
+
+  const gallerySources = (gallery) => {
+    const prefix = gallery.getAttribute('data-gallery-prefix') || '';
+    const count = Number.parseInt(gallery.getAttribute('data-gallery-count') || '0', 10);
+    return Array.from({ length: count }, (_, index) => {
+      return `assets/images/${prefix}-${String(index + 1).padStart(3, '0')}.jpg`;
+    });
+  };
+
+  document.querySelectorAll('[data-gallery-prefix]').forEach((gallery) => {
+    const alt = gallery.getAttribute('data-gallery-alt') || '';
+    const sources = gallerySources(gallery);
+
+    if (gallery.hasAttribute('data-marquee')) {
+      const track = document.createElement('div');
+      track.className = 'marquee-track';
+
+      [false, true].forEach((duplicate) => {
+        const group = document.createElement('div');
+        group.className = 'marquee-group';
+        if (duplicate) group.setAttribute('aria-hidden', 'true');
+        sources.forEach((source) => group.appendChild(createGalleryButton(source, alt, duplicate)));
+        track.appendChild(group);
+      });
+
+      gallery.appendChild(track);
+      return;
+    }
+
+    sources.forEach((source) => gallery.appendChild(createGalleryButton(source, alt, false)));
+  });
+
   const dialog = document.getElementById('lightbox');
   const dialogImage = dialog ? dialog.querySelector('[data-lightbox-image]') : null;
   const dialogCaption = dialog ? dialog.querySelector('[data-lightbox-caption]') : null;
