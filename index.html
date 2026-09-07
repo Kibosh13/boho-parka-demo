@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f6f2eb">
-    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
-    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet">
+  <meta name="theme-color" content="#f6f2eb">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet">
   <meta name="description" content="Перекрой шубы на съёмную меховую подкладку к парке. Мастерская Натальи Неклюдовой — БОХО ПАРКА.">
   <meta property="og:title" content="Перекрой шубы — БОХО ПАРКА">
   <meta property="og:description" content="Перешьём вашу шубу на подкладку к парке.">
@@ -13,7 +13,7 @@
   <meta property="og:image" content="assets/images/hero-parka.png">
   <title>Перекрой шубы — БОХО ПАРКА</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css?v=20260907-3">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260907-5">
 </head>
 <body>
   <svg class="svg-sprite" aria-hidden="true" focusable="false">
