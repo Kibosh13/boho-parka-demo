@@ -101,6 +101,94 @@
     sources.forEach((source) => gallery.appendChild(createGalleryButton(source, alt, false)));
   });
 
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const marqueeSpeed = (gallery) => {
+    if (gallery.closest('.results-gallery')) return 48;
+    if (gallery.closest('.customer-gallery')) return 40;
+    if (gallery.classList.contains('review-marquee')) return 34;
+    return 38;
+  };
+
+  document.querySelectorAll('[data-marquee]').forEach((gallery) => {
+    const track = gallery.querySelector('.marquee-track');
+    const firstGroup = track ? track.querySelector('.marquee-group') : null;
+    if (!track || !firstGroup) return;
+
+    let visible = false;
+    let paused = false;
+    let resumeTimer = 0;
+    let previousTime = performance.now();
+
+    const pauseTemporarily = () => {
+      paused = true;
+      window.clearTimeout(resumeTimer);
+      resumeTimer = window.setTimeout(() => { paused = false; }, 1400);
+    };
+
+    gallery.addEventListener('pointerdown', pauseTemporarily, { passive: true });
+    gallery.addEventListener('pointerup', pauseTemporarily, { passive: true });
+    gallery.addEventListener('pointercancel', pauseTemporarily, { passive: true });
+    gallery.addEventListener('mouseenter', () => { paused = true; });
+    gallery.addEventListener('mouseleave', () => { paused = false; });
+    gallery.addEventListener('focusin', () => { paused = true; });
+    gallery.addEventListener('focusout', () => { paused = false; });
+
+    if ('IntersectionObserver' in window) {
+      const visibilityObserver = new IntersectionObserver((entries) => {
+        visible = entries.some((entry) => entry.isIntersecting);
+      }, { rootMargin: '250px 0px' });
+      visibilityObserver.observe(gallery);
+    } else {
+      visible = true;
+    }
+
+    const move = (currentTime) => {
+      const elapsed = Math.min((currentTime - previousTime) / 1000, 0.1);
+      previousTime = currentTime;
+
+      if (visible && !paused && !reducedMotion.matches) {
+        const gap = Number.parseFloat(window.getComputedStyle(track).columnGap) || 0;
+        const loopWidth = firstGroup.getBoundingClientRect().width + gap;
+        if (loopWidth > 0) {
+          gallery.scrollLeft += marqueeSpeed(gallery) * elapsed;
+          if (gallery.scrollLeft >= loopWidth) gallery.scrollLeft -= loopWidth;
+        }
+      }
+
+      window.requestAnimationFrame(move);
+    };
+
+    gallery.setAttribute('data-motion-carousel', 'ready');
+    window.requestAnimationFrame(move);
+  });
+
+  document.querySelectorAll('[data-autoplay-video]').forEach((video) => {
+    video.muted = true;
+    video.loop = true;
+
+    const startPlayback = () => {
+      const playback = video.play();
+      if (playback && typeof playback.catch === 'function') {
+        playback.catch(() => {});
+      }
+    };
+
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.45) {
+            startPlayback();
+          } else {
+            video.pause();
+          }
+        });
+      }, { threshold: [0, 0.45, 1] });
+      observer.observe(video);
+    } else {
+      startPlayback();
+    }
+  });
+
   const dialog = document.getElementById('lightbox');
   const dialogImage = dialog ? dialog.querySelector('[data-lightbox-image]') : null;
   const dialogCaption = dialog ? dialog.querySelector('[data-lightbox-caption]') : null;
