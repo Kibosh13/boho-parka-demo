@@ -1,5 +1,8 @@
-(function () {
+(async function () {
   'use strict';
+
+  const cms = window.BOHO_CMS || null;
+  const cmsContent = cms ? await cms.ready : { texts: {}, images: {}, galleries: {} };
 
   const body = document.body;
   const header = document.querySelector('[data-header]');
@@ -56,7 +59,9 @@
     });
   }
 
-  const createGalleryButton = (source, alt, duplicate) => {
+  const createGalleryButton = (item, fallbackAlt, duplicate) => {
+    const source = typeof item === 'string' ? item : item.src;
+    const alt = typeof item === 'string' ? fallbackAlt : (item.alt || fallbackAlt);
     const button = document.createElement('button');
     const image = document.createElement('img');
     button.type = 'button';
@@ -72,10 +77,20 @@
 
   const gallerySources = (gallery) => {
     const prefix = gallery.getAttribute('data-gallery-prefix') || '';
+    const configured = cmsContent.galleries && cmsContent.galleries[prefix];
+    if (Array.isArray(configured)) {
+      return configured.filter((item) => item && item.src && !item.hidden);
+    }
     const count = Number.parseInt(gallery.getAttribute('data-gallery-count') || '0', 10);
+    const skipped = new Set(
+      (gallery.getAttribute('data-gallery-skip') || '')
+        .split(',')
+        .map((value) => Number.parseInt(value.trim(), 10))
+        .filter(Number.isFinite)
+    );
     return Array.from({ length: count }, (_, index) => {
       return `assets/images/${prefix}-${String(index + 1).padStart(3, '0')}.jpg`;
-    });
+    }).filter((source, index) => !skipped.has(index + 1));
   };
 
   document.querySelectorAll('[data-gallery-prefix]').forEach((gallery) => {
@@ -100,6 +115,11 @@
 
     sources.forEach((source) => gallery.appendChild(createGalleryButton(source, alt, false)));
   });
+
+  if (cms) {
+    cms.apply(document);
+    window.dispatchEvent(new CustomEvent('boho-cms-rendered'));
+  }
 
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const hoverPointer = window.matchMedia('(hover: hover) and (pointer: fine)');

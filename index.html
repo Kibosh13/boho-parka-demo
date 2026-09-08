@@ -13,7 +13,7 @@
   <meta property="og:image" content="assets/images/hero-parka.png">
   <title>Перекрой шубы — БОХО ПАРКА</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css?v=20260908-6">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260908-10">
 </head>
 <body>
   <svg class="svg-sprite" aria-hidden="true" focusable="false">
@@ -52,6 +52,12 @@
     <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" data-menu-toggle><svg aria-hidden="true"><use href="#i-menu"/></svg><span class="sr-only">Открыть меню</span></button>
   </header>
 
+  <aside class="floating-messengers" aria-label="Быстрая связь">
+    <a href="https://max.ru/channel_Bohoparka" target="_blank" rel="noopener" aria-label="Написать в MAX"><svg class="max-icon" aria-hidden="true"><use href="#i-max"/></svg><span>MAX</span></a>
+    <a href="https://t.me/boho_parka" target="_blank" rel="noopener" aria-label="Написать в Telegram"><svg aria-hidden="true"><use href="#i-tg"/></svg><span>Telegram</span></a>
+    <a href="mailto:bohoparka.official@gmail.com" aria-label="Написать на электронную почту"><svg aria-hidden="true"><use href="#i-mail"/></svg><span>Почта</span></a>
+  </aside>
+
   <main id="content">
     <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="hero-copy">
@@ -75,12 +81,12 @@
         <div class="concerns-copy"><p>Когда-то ваша мама блистала в этой шубке. Теперь ваша очередь! Шубка станет основой к новой парке.</p></div>
         <div class="concerns-photo-grid">
           <div class="concern-photo-pair">
-            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-01.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-01.jpg" alt="Старая шуба и новая парка" loading="lazy"></button>
-            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-02.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-02.jpg" alt="Шуба до перекроя" loading="lazy"></button>
+            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-01.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-01.jpg" alt="Мама в шубе до перекроя" loading="lazy"></button>
+            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-02.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-02.jpg" alt="Белая парка после перекроя" loading="lazy"></button>
           </div>
           <div class="concern-photo-pair">
-            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-03.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-03.jpg" alt="Шуба до перекроя и парка после перекроя" loading="lazy"></button>
-            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-04.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-04.jpg" alt="Парка после перекроя" loading="lazy"></button>
+            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-03.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-03.jpg" alt="Чёрная БОХО ПАРКА после перекроя" loading="lazy"></button>
+            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-04.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-04.jpg" alt="Старая мамина шуба" loading="lazy"></button>
           </div>
         </div>
       </div>
@@ -122,7 +128,7 @@
 
     <section class="proof section section-burgundy" aria-labelledby="proof-title">
       <div class="proof-heading"><h2 id="proof-title">Больше тысячи довольных заказчиков —<br><em>каждый из них подтверждает:</em></h2><p>Мы делаем перекрой шуб и пошив парок так, что вещь становится любимой на несколько сезонов.</p></div>
-      <div class="marquee review-marquee" data-marquee data-gallery-prefix="review-spec" data-gallery-count="16" data-gallery-alt="Отзыв заказчицы"></div>
+      <div class="marquee review-marquee" data-marquee data-gallery-prefix="review-spec" data-gallery-count="28" data-gallery-alt="Отзыв заказчицы"></div>
       <p class="center-link"><a class="text-link" href="https://bohoparka.com/otzyvy/" target="_blank" rel="noopener">Больше отзывов на основном сайте</a></p>
     </section>
 
@@ -134,16 +140,11 @@
       <video class="design-video" controls muted loop playsinline preload="metadata" data-autoplay-video>
         <source src="assets/video/design-video.m4v" type="video/mp4">
       </video>
-      <div class="interchange"><div class="interchange-copy"><h3>Все детали взаимозаменяемы</h3></div><div class="interchange-photos">
-        <button class="image-button" type="button" data-lightbox="assets/images/interchange-01.jpg"><img src="assets/images/interchange-01.jpg" alt="Парка с мехом" loading="lazy"></button>
-        <button class="image-button" type="button" data-lightbox="assets/images/interchange-02.jpg"><img src="assets/images/interchange-02.jpg" alt="Верхняя парка" loading="lazy"></button>
-        <button class="image-button" type="button" data-lightbox="assets/images/interchange-03.jpg"><img src="assets/images/interchange-03.jpg" alt="Меховая подстёжка" loading="lazy"></button>
-      </div></div>
     </section>
 
     <section class="gallery-section customer-gallery" aria-labelledby="customer-gallery-title">
       <div class="gallery-heading section"><h2 id="customer-gallery-title">Довольные заказчики<br><em>выглядят так</em></h2></div>
-      <div class="marquee" data-marquee data-gallery-prefix="customer" data-gallery-count="25" data-gallery-alt="Заказчик БОХО ПАРКА"></div>
+      <div class="marquee" data-marquee data-gallery-prefix="customer" data-gallery-count="19" data-gallery-alt="Заказчик БОХО ПАРКА"></div>
     </section>
 
     <section class="gallery-section results-gallery" aria-labelledby="gallery-title">
@@ -160,7 +161,7 @@
         <article class="why-feature why-feature-dark"><div class="why-number">03</div><div class="why-copy"><h3>Универсальный крой</h3><p>Мужские модели тоже имеют право на жизнь! Мужская куртка в прошлом году побила рекорды по заказам.</p></div><div class="native-gallery native-gallery-tall" data-gallery-prefix="mens-spec" data-gallery-count="12" data-gallery-alt="Мужская парка"></div></article>
       </div>
       <article class="why-feature why-feature-map"><div class="why-number">04</div><div class="why-copy"><h3>Удобная схема взаимодействия</h3><p>Вы можете приехать на примерку в Зеленоград. Либо общаемся онлайн. Более 70 процентов заказов приходит из регионов. Я очень подробно общаюсь по удобному вам виду связи. Делаю фото и видео. Могу прислать на примерку верхнюю парку.</p><a class="card-link" href="https://yandex.ru/maps/?text=Москва%2C%20Зеленоград%2C%20проезд%204807%2C%20д.%203%2C%20стр.%208" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg>Открыть маршрут</a></div><iframe class="map-frame" src="https://yandex.ru/map-widget/v1/?mode=search&text=Москва%2C%20Зеленоград%2C%20проезд%204807%2C%20д.%203%2C%20стр.%208&z=16" title="Карта проезда в мастерскую БОХО ПАРКА" loading="lazy" allowfullscreen></iframe></article>
-      <article class="why-feature why-feature-wide"><div class="why-number">05</div><div class="why-copy"><h3>Я лично веду работу с заказчиком</h3><p>Делаю много фото и видео из мастерской, помогая определиться с выбором парки, и остаюсь на связи после получения вами изделия.</p></div><div class="native-gallery" data-gallery-prefix="personal" data-gallery-count="7" data-gallery-alt="Работа с заказчиком: изделие на вешалке и на человеке"></div></article>
+      <article class="why-feature why-feature-wide"><div class="why-number">05</div><div class="why-copy"><h3>Я лично веду работу с заказчиком</h3><p>Делаю много фото и видео из мастерской, помогая определиться с выбором парки, и остаюсь на связи после получения вами изделия.</p></div><div class="native-gallery" data-gallery-prefix="personal" data-gallery-count="9" data-gallery-alt="Работа с заказчиком: изделие на вешалке и на человеке"></div></article>
       <article class="why-feature why-feature-wide why-feature-dark"><div class="why-number">06</div><div class="why-copy"><h3>Возможность виртуальной примерки</h3><p>Можно заранее увидеть, как выбранная модель будет смотреться на человеке.</p></div><div class="virtual-fitting-gallery"><button class="image-button" type="button" data-lightbox="assets/images/virtual-fitting-002.jpg"><img src="assets/images/virtual-fitting-002.jpg" alt="Том Харди без куртки" loading="lazy"></button><button class="image-button" type="button" data-lightbox="assets/images/virtual-fitting-001.jpg"><img src="assets/images/virtual-fitting-001.jpg" alt="Том Харди в парке" loading="lazy"></button></div></article>
     </section>
 
@@ -176,7 +177,7 @@
       <div class="benefits-heading"><p class="eyebrow">Продолжение — почему мы?</p><h2 id="why-continuation-title">Перекрой вашей шубки<br><em>на подстёжку в «богемную» парку</em></h2></div>
       <div class="why-pair why-pair-compact"><article class="why-feature"><div class="why-number">07</div><div class="why-copy"><h3>Быстрый результат</h3><p>Работа выполняется достаточно быстро. Верхние парки сшиты заранее. Обычно мы укладываемся в 10 рабочих дней.</p></div></article><article class="why-feature why-feature-dark"><div class="why-number">08</div><div class="why-copy"><h3>Гарантия один год</h3><p>Гарантия на подстёжку при перекрое составляет 1 год.</p></div></article></div>
       <article class="why-feature why-feature-wide"><div class="why-number">09</div><div class="why-copy"><h3>Любимая шубка — на каждый день</h3><p>Перекрой даст возможность носить любимую шубку не только на выход, а эксплуатировать её каждый день в разных сценариях жизни.</p></div><div class="native-gallery" data-gallery-prefix="benefit-customers" data-gallery-count="16" data-gallery-alt="Заказчики БОХО ПАРКА"></div></article>
-      <article class="why-feature why-feature-wide why-feature-dark"><div class="why-number">10</div><div class="why-copy"><h3>Удобный свободный крой</h3><p>Свободный крой делает куртку универсальной и не ограничивает движение.</p></div><div class="native-gallery" data-gallery-prefix="benefit-life" data-gallery-count="70" data-gallery-alt="Парка в повседневной жизни"></div></article>
+      <article class="why-feature why-feature-wide why-feature-dark"><div class="why-number">10</div><div class="why-copy"><h3>Удобный свободный крой</h3><p>Свободный крой делает куртку универсальной и не ограничивает движение.</p></div><div class="native-gallery" data-gallery-prefix="benefit-life" data-gallery-count="24" data-gallery-alt="Парка в повседневной жизни"></div></article>
       <article class="why-feature why-feature-wide"><div class="why-number">11</div><div class="why-copy"><h3>Для разных сценариев жизни</h3><p>Отдых на природе, долгие зимние прогулки, городская суета и поездки на машине.</p></div><div class="native-gallery" data-gallery-prefix="benefit-travel" data-gallery-count="19" data-gallery-alt="Парка на прогулке и в поездке"></div></article>
       <article class="why-feature why-feature-dark"><div class="why-number">12</div><div class="why-copy"><h3>Лёгкий уход</h3><p>Подстёжка легко снимается, а верхнюю парку можно стирать в машине.</p></div></article>
       <article class="why-feature why-feature-wide"><div class="why-number">13</div><div class="why-copy"><h3>Универсальность и взаимозаменяемость</h3><p>Куртку можно носить отдельно без меха, заменить верхнюю парку на модель другого цвета или сшить дополнительную подстёжку из другого меха.</p></div><div class="native-gallery" data-gallery-prefix="benefit-variants" data-gallery-count="19" data-gallery-alt="Варианты верхних парок и меховых подстёжек"></div></article>
@@ -206,6 +207,6 @@
   <footer class="site-footer"><div class="footer-identity"><img src="assets/images/logo-boho-parka-transparent.png" alt="БОХО ПАРКА" width="2600" height="1700"><div class="footer-details"><p>ИП Неклюдова Наталья Ивановна BOHO-PARKA</p><p>ИНН 773573837729, ОГРН 317774600403122</p><p>124482, г. Москва, г. Зеленоград, к. 531, кв. 58</p></div></div><a href="https://bohoparka.com/" target="_blank" rel="noopener">bohoparka.com</a><button type="button" data-scroll="top">Наверх <svg aria-hidden="true"><use href="#i-arrow"/></svg></button></footer>
 
   <dialog class="lightbox" id="lightbox" aria-label="Просмотр фотографии"><button class="lightbox-close" type="button" data-lightbox-close aria-label="Закрыть"><svg aria-hidden="true"><use href="#i-close"/></svg></button><button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Предыдущая фотография"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button><figure><img alt="" data-lightbox-image><figcaption data-lightbox-caption></figcaption></figure><button class="lightbox-nav lightbox-next" type="button" data-lightbox-next aria-label="Следующая фотография"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button></dialog>
-  <script src="assets/js/main.js?v=20260908-6"></script>
+  <script src="assets/js/main.js?v=20260908-10"></script>
 </body>
 </html>
