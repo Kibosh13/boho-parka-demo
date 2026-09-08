@@ -532,7 +532,6 @@ h3 {
   width: 76%;
   height: auto;
   aspect-ratio: 956 / 1280;
-  border: 1px solid var(--line);
 }
 
 .hero-image-small {
@@ -542,14 +541,13 @@ h3 {
   width: 43%;
   height: auto;
   aspect-ratio: 956 / 1280;
-  border: 7px solid var(--paper-light);
 }
 
 .hero-visual .image-button img {
   height: 100%;
   object-fit: contain;
   object-position: center top;
-  background: var(--paper-deep);
+  background: transparent;
 }
 
 .hero-note {
@@ -577,15 +575,15 @@ h3 {
 .concerns-grid {
   display: grid;
   grid-template-columns: 1.08fr .64fr .78fr;
-  align-items: end;
+  align-items: start;
   gap: clamp(2rem, 5vw, 6.5rem);
-  padding-top: clamp(3rem, 7vw, 7rem);
+  padding-top: clamp(1.5rem, 3vw, 3rem);
 }
 
 .concerns-intro h2 { font-size: clamp(3.2rem, 6vw, 7.1rem); }
 
 .concerns-copy {
-  padding-bottom: 2rem;
+  padding-top: clamp(7rem, 12vw, 13rem);
   color: rgba(31, 26, 23, .72);
 }
 
@@ -639,8 +637,7 @@ h3 {
   left: 0;
   width: 43%;
   height: auto;
-  aspect-ratio: 956 / 1280;
-  border: 7px solid var(--paper);
+  aspect-ratio: 1194 / 1600;
 }
 
 .concern-photo-small img {
@@ -815,15 +812,21 @@ h3 {
 
 .remake-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: .75fr .946fr .873fr .75fr .75fr;
+  align-items: end;
   gap: .75rem;
   height: auto;
   margin-top: clamp(3rem, 6vw, 6rem);
 }
 
 .remake-grid .image-button,
-.remake-grid img { background: var(--paper-light); }
-.remake-grid .image-button { aspect-ratio: 3 / 4; }
+.remake-grid img { background: transparent; }
+.remake-grid .image-button { height: auto; align-self: end; }
+.remake-grid .image-button:nth-child(1),
+.remake-grid .image-button:nth-child(4),
+.remake-grid .image-button:nth-child(5) { aspect-ratio: 1200 / 1600; }
+.remake-grid .image-button:nth-child(2) { aspect-ratio: 1513 / 1600; }
+.remake-grid .image-button:nth-child(3) { aspect-ratio: 1396 / 1600; }
 
 .history-copy {
   display: grid;
@@ -1698,6 +1701,7 @@ h3 {
 
   .concerns-grid { grid-template-columns: 1fr 1fr; align-items: start; }
   .concerns-photo-grid { grid-column: 2; grid-row: 1 / span 2; }
+  .concerns-copy { padding-top: 0; }
 
   .questions-layout,
   .about-layout,
@@ -1783,7 +1787,7 @@ h3 {
     grid-column: auto;
     grid-row: auto;
   }
-  .concerns-copy { padding-bottom: 0; }
+  .concerns-copy { padding-top: 0; padding-bottom: 0; }
 
   .questions-layout { gap: 3rem; }
   .question-list li { grid-template-columns: 2.5rem 1fr; }

@@ -13,7 +13,7 @@
   <meta property="og:image" content="assets/images/hero-parka.png">
   <title>Перекрой шубы — БОХО ПАРКА</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css?v=20260908-1">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260908-3">
 </head>
 <body>
   <svg class="svg-sprite" aria-hidden="true" focusable="false">
