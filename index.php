@@ -13,7 +13,7 @@
   <meta property="og:image" content="assets/images/hero-parka.png">
   <title>Перекрой шубы — БОХО ПАРКА</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css?v=20260908-5">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260908-6">
 </head>
 <body>
   <svg class="svg-sprite" aria-hidden="true" focusable="false">
@@ -154,7 +154,7 @@
 
     <section class="why section" id="why" aria-labelledby="why-title">
       <div class="why-intro why-title-only"><h2 id="why-title">Почему мы?</h2></div>
-      <article class="why-feature why-feature-large"><div class="why-number">01</div><div class="why-copy"><h3>Предсказуемый результат</h3><p>Вся работа делается на базе готовой куртки, крой и посадка которой проверена 11-ю сезонами эксплуатации в самых разных регионах России и не только.</p></div><div class="predictable-strip"><button class="image-button" type="button" data-lightbox="assets/images/predictable-003.jpg"><img src="assets/images/predictable-003.jpg" alt="Меховая подстёжка" loading="lazy"></button><svg aria-hidden="true"><use href="#i-arrow"/></svg><button class="image-button" type="button" data-lightbox="assets/images/predictable-001.jpg"><img src="assets/images/predictable-001.jpg" alt="Готовая парка с меховой подстёжкой" loading="lazy"></button><svg aria-hidden="true"><use href="#i-arrow"/></svg><button class="image-button" type="button" data-lightbox="assets/images/predictable-002.jpg"><img src="assets/images/predictable-002.jpg" alt="Готовая верхняя парка" loading="lazy"></button></div></article>
+      <article class="why-feature why-feature-large"><div class="why-number">01</div><div class="why-copy"><h3>Предсказуемый результат</h3><p>Вся работа делается на базе готовой куртки, крой и посадка которой проверена 11-ю сезонами эксплуатации в самых разных регионах России и не только.</p></div><div class="predictable-strip"><button class="image-button" type="button" data-lightbox="assets/images/predictable-001.jpg"><img src="assets/images/predictable-001.jpg" alt="Готовая парка с меховой подстёжкой" loading="lazy"></button><svg aria-hidden="true"><use href="#i-arrow"/></svg><button class="image-button" type="button" data-lightbox="assets/images/predictable-002.jpg"><img src="assets/images/predictable-002.jpg" alt="Готовая верхняя парка" loading="lazy"></button><svg aria-hidden="true"><use href="#i-arrow"/></svg><button class="image-button" type="button" data-lightbox="assets/images/predictable-003.jpg"><img src="assets/images/predictable-003.jpg" alt="Меховая подстёжка" loading="lazy"></button></div></article>
       <div class="why-pair">
         <article class="why-feature"><div class="why-number">02</div><div class="why-copy"><h3>Большой выбор готовых верхних курток</h3><p>Вы сможете выбрать модель с вышивкой или без. Самые качественные плащевые ткани сегмента премиум: хлопковые, мембранные, плотные и совсем лёгкие, с авторскими принтами и расписанные вручную.</p></div><button class="image-button why-single-photo" type="button" data-lightbox="assets/images/color-choice-spec.jpg"><img src="assets/images/color-choice-spec.jpg" alt="Варианты готовых верхних курток" loading="lazy"></button></article>
         <article class="why-feature why-feature-dark"><div class="why-number">03</div><div class="why-copy"><h3>Универсальный крой</h3><p>Мужские модели тоже имеют право на жизнь! Мужская куртка в прошлом году побила рекорды по заказам.</p></div><div class="native-gallery native-gallery-tall" data-gallery-prefix="mens-spec" data-gallery-count="12" data-gallery-alt="Мужская парка"></div></article>
@@ -206,6 +206,6 @@
   <footer class="site-footer"><div class="footer-identity"><img src="assets/images/logo-boho-parka-transparent.png" alt="БОХО ПАРКА" width="2600" height="1700"><div class="footer-details"><p>ИП Неклюдова Наталья Ивановна BOHO-PARKA</p><p>ИНН 773573837729, ОГРН 317774600403122</p><p>124482, г. Москва, г. Зеленоград, к. 531, кв. 58</p></div></div><a href="https://bohoparka.com/" target="_blank" rel="noopener">bohoparka.com</a><button type="button" data-scroll="top">Наверх <svg aria-hidden="true"><use href="#i-arrow"/></svg></button></footer>
 
   <dialog class="lightbox" id="lightbox" aria-label="Просмотр фотографии"><button class="lightbox-close" type="button" data-lightbox-close aria-label="Закрыть"><svg aria-hidden="true"><use href="#i-close"/></svg></button><button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Предыдущая фотография"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button><figure><img alt="" data-lightbox-image><figcaption data-lightbox-caption></figcaption></figure><button class="lightbox-nav lightbox-next" type="button" data-lightbox-next aria-label="Следующая фотография"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button></dialog>
-  <script src="assets/js/main.js?v=20260908-5"></script>
+  <script src="assets/js/main.js?v=20260908-6"></script>
 </body>
 </html>

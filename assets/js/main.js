@@ -102,6 +102,7 @@
   });
 
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const hoverPointer = window.matchMedia('(hover: hover) and (pointer: fine)');
   const marqueeSpeed = (gallery) => {
     if (gallery.closest('.results-gallery')) return 48;
     if (gallery.closest('.customer-gallery')) return 40;
@@ -128,10 +129,18 @@
     gallery.addEventListener('pointerdown', pauseTemporarily, { passive: true });
     gallery.addEventListener('pointerup', pauseTemporarily, { passive: true });
     gallery.addEventListener('pointercancel', pauseTemporarily, { passive: true });
-    gallery.addEventListener('mouseenter', () => { paused = true; });
-    gallery.addEventListener('mouseleave', () => { paused = false; });
-    gallery.addEventListener('focusin', () => { paused = true; });
-    gallery.addEventListener('focusout', () => { paused = false; });
+    gallery.addEventListener('mouseenter', () => {
+      if (hoverPointer.matches) paused = true;
+    });
+    gallery.addEventListener('mouseleave', () => {
+      if (hoverPointer.matches) paused = false;
+    });
+    gallery.addEventListener('focusin', () => {
+      if (hoverPointer.matches) paused = true;
+    });
+    gallery.addEventListener('focusout', () => {
+      if (hoverPointer.matches) paused = false;
+    });
 
     if ('IntersectionObserver' in window) {
       const visibilityObserver = new IntersectionObserver((entries) => {

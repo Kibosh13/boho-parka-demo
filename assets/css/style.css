@@ -2017,9 +2017,9 @@ h3 {
   min-height: 220px;
 }
 
-.predictable-strip .image-button:nth-child(1) { aspect-ratio: 1286 / 1600; }
-.predictable-strip .image-button:nth-child(3),
-.predictable-strip .image-button:nth-child(5) { aspect-ratio: 1194 / 1600; }
+.predictable-strip .image-button:nth-child(1),
+.predictable-strip .image-button:nth-child(3) { aspect-ratio: 1194 / 1600; }
+.predictable-strip .image-button:nth-child(5) { aspect-ratio: 1286 / 1600; }
 
 .reference-grid article {
   min-height: 0;
