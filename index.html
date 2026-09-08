@@ -13,7 +13,7 @@
   <meta property="og:image" content="assets/images/hero-parka.png">
   <title>Перекрой шубы — БОХО ПАРКА</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css?v=20260908-10">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260908-photo-fix">
 </head>
 <body>
   <svg class="svg-sprite" aria-hidden="true" focusable="false">
@@ -161,7 +161,7 @@
         <article class="why-feature why-feature-dark"><div class="why-number">03</div><div class="why-copy"><h3>Универсальный крой</h3><p>Мужские модели тоже имеют право на жизнь! Мужская куртка в прошлом году побила рекорды по заказам.</p></div><div class="native-gallery native-gallery-tall" data-gallery-prefix="mens-spec" data-gallery-count="12" data-gallery-alt="Мужская парка"></div></article>
       </div>
       <article class="why-feature why-feature-map"><div class="why-number">04</div><div class="why-copy"><h3>Удобная схема взаимодействия</h3><p>Вы можете приехать на примерку в Зеленоград. Либо общаемся онлайн. Более 70 процентов заказов приходит из регионов. Я очень подробно общаюсь по удобному вам виду связи. Делаю фото и видео. Могу прислать на примерку верхнюю парку.</p><a class="card-link" href="https://yandex.ru/maps/?text=Москва%2C%20Зеленоград%2C%20проезд%204807%2C%20д.%203%2C%20стр.%208" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg>Открыть маршрут</a></div><iframe class="map-frame" src="https://yandex.ru/map-widget/v1/?mode=search&text=Москва%2C%20Зеленоград%2C%20проезд%204807%2C%20д.%203%2C%20стр.%208&z=16" title="Карта проезда в мастерскую БОХО ПАРКА" loading="lazy" allowfullscreen></iframe></article>
-      <article class="why-feature why-feature-wide"><div class="why-number">05</div><div class="why-copy"><h3>Я лично веду работу с заказчиком</h3><p>Делаю много фото и видео из мастерской, помогая определиться с выбором парки, и остаюсь на связи после получения вами изделия.</p></div><div class="native-gallery" data-gallery-prefix="personal" data-gallery-count="9" data-gallery-alt="Работа с заказчиком: изделие на вешалке и на человеке"></div></article>
+      <article class="why-feature why-feature-wide"><div class="why-number">05</div><div class="why-copy"><h3>Я лично веду работу с заказчиком</h3><p>Делаю много фото и видео из мастерской, помогая определиться с выбором парки, и остаюсь на связи после получения вами изделия.</p></div><div class="native-gallery" data-gallery-prefix="personal" data-gallery-count="9" data-gallery-skip="6" data-gallery-alt="Работа с заказчиком: изделие на вешалке и на человеке"></div></article>
       <article class="why-feature why-feature-wide why-feature-dark"><div class="why-number">06</div><div class="why-copy"><h3>Возможность виртуальной примерки</h3><p>Можно заранее увидеть, как выбранная модель будет смотреться на человеке.</p></div><div class="virtual-fitting-gallery"><button class="image-button" type="button" data-lightbox="assets/images/virtual-fitting-002.jpg"><img src="assets/images/virtual-fitting-002.jpg" alt="Том Харди без куртки" loading="lazy"></button><button class="image-button" type="button" data-lightbox="assets/images/virtual-fitting-001.jpg"><img src="assets/images/virtual-fitting-001.jpg" alt="Том Харди в парке" loading="lazy"></button></div></article>
     </section>
 

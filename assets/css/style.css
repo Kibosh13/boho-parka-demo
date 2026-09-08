@@ -656,20 +656,24 @@ h3 {
 }
 
 .concerns-photo-grid {
-  position: relative;
-  display: block;
+  display: grid;
+  gap: clamp(.65rem, 1.2vw, 1.25rem);
   width: 100%;
-  min-height: 0;
-  aspect-ratio: 1 / 1.58;
+  min-width: 0;
 }
 
 .concern-photo-pair {
-  display: contents;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: inherit;
+  min-width: 0;
 }
 
 .concerns-photo-grid .image-button {
-  position: absolute;
+  position: relative;
+  width: 100%;
   height: auto;
+  aspect-ratio: 2 / 3;
   transform: none;
   background: transparent;
 }
@@ -677,36 +681,12 @@ h3 {
 .concerns-photo-grid .image-button img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
+  object-fit: contain;
+  object-position: center top;
 }
 
-.concern-photo-pair:first-child .concern-photo-main {
-  top: 0;
-  right: 0;
-  width: 55%;
-  aspect-ratio: 1792 / 2400;
-}
-
-.concern-photo-pair:first-child .concern-photo-small {
-  top: 18%;
-  left: 0;
-  width: 43%;
-  aspect-ratio: 4 / 5;
-}
-
-.concern-photo-pair:nth-child(2) .concern-photo-main {
-  right: 0;
-  bottom: 0;
-  width: 55%;
-  aspect-ratio: 1536 / 2752;
-}
-
-.concern-photo-pair:nth-child(2) .concern-photo-small {
-  bottom: 2%;
-  left: 0;
-  width: 43%;
-  aspect-ratio: 1023 / 2048;
+.concern-photo-small {
+  order: -1;
 }
 
 .image-caption {
