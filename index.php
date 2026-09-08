@@ -13,7 +13,7 @@
   <meta property="og:image" content="assets/images/hero-parka.png">
   <title>Перекрой шубы — БОХО ПАРКА</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css?v=20260907-7">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260908-1">
 </head>
 <body>
   <svg class="svg-sprite" aria-hidden="true" focusable="false">
@@ -157,7 +157,7 @@
       <div class="why-feature why-feature-large"><div class="why-number">01</div><div class="why-copy"><h3>Предсказуемый результат</h3><p>Вся работа делается на базе готовой куртки, крой и посадка которой проверена 11-ю сезонами эксплуатации в самых разных регионах России и не только.</p></div><div class="predictable-strip"><button class="image-button" type="button" data-lightbox="assets/images/predictable-001.jpg"><img src="assets/images/predictable-001.jpg" alt="Готовая верхняя парка" loading="lazy"></button><svg aria-hidden="true"><use href="#i-arrow"/></svg><button class="image-button" type="button" data-lightbox="assets/images/predictable-002.jpg"><img src="assets/images/predictable-002.jpg" alt="Парка в процессе работы" loading="lazy"></button><svg aria-hidden="true"><use href="#i-arrow"/></svg><button class="image-button" type="button" data-lightbox="assets/images/predictable-003.jpg"><img src="assets/images/predictable-003.jpg" alt="Готовая парка с меховой подстёжкой" loading="lazy"></button></div></div>
       <div class="why-pair">
         <article class="why-feature"><div class="why-number">02</div><div class="why-copy"><h3>Большой выбор готовых верхних курток</h3><p>Вы сможете выбрать модель с вышивкой или без. Самые качественные плащевые ткани сегмента премиум: хлопковые, мембранные, плотные и совсем лёгкие, с авторскими принтами и расписанные вручную.</p></div><button class="image-button" type="button" data-lightbox="assets/images/color-choice-spec.jpg"><img src="assets/images/color-choice-spec.jpg" alt="Варианты готовых верхних курток" loading="lazy"></button></article>
-        <article class="why-feature why-feature-dark"><div class="why-number">03</div><div class="why-copy"><h3>Универсальный крой</h3><p>Мужские модели тоже имеют право на жизнь! Мужская куртка в прошлом году побила рекорды по заказам.</p></div><div class="mens-gallery" data-grid-gallery data-gallery-prefix="mens-spec" data-gallery-count="11" data-gallery-alt="Мужская парка"></div></article>
+        <article class="why-feature why-feature-dark"><div class="why-number">03</div><div class="why-copy"><h3>Универсальный крой</h3><p>Мужские модели тоже имеют право на жизнь! Мужская куртка в прошлом году побила рекорды по заказам.</p></div><div class="mens-gallery" data-grid-gallery data-gallery-prefix="mens-spec" data-gallery-count="12" data-gallery-alt="Мужская парка"></div></article>
       </div>
       <div class="why-pair why-pair-secondary">
         <article class="why-feature why-feature-dark"><div class="why-number">04</div><div class="why-copy"><h3>Удобная схема взаимодействия</h3><p>Вы можете приехать на примерку в Зеленоград. Либо общаемся онлайн. Более 70 процентов заказов приходит из регионов. Я очень подробно общаюсь по удобному вам виду связи. Делаю фото и видео. Могу прислать на примерку верхнюю парку.</p></div><a class="card-link" href="https://yandex.ru/maps/?text=Москва%2C%20Зеленоград%2C%20проезд%204807%2C%20д.%203%2C%20стр.%208" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg>Схема маршрута</a></article>
