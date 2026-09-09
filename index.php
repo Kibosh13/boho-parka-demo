@@ -13,7 +13,7 @@
   <meta property="og:image" content="assets/images/hero-parka.png">
   <title>Перекрой шубы — БОХО ПАРКА</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css?v=20260908-photo-fix">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260909-1">
 </head>
 <body>
   <svg class="svg-sprite" aria-hidden="true" focusable="false">
@@ -23,7 +23,7 @@
     <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
     <symbol id="i-tg" viewBox="0 0 24 24"><path d="m21 4-3 16-6-5-4 3 1-5 8-6-10 5-4-2 18-6Z"/></symbol>
     <symbol id="i-vk" viewBox="0 0 24 24"><path d="M4 7h4c.4 4 2 6 3 6.4V7h3.5v3.7c1-.1 2.2-1.9 2.7-3.7H21c-.4 2.2-2.5 4.5-3.5 5.3 1 .6 3.7 2.7 4 4.7h-4.1c-.6-1.6-1.8-2.9-2.9-3.1V17H14C8.3 17 5.1 13.1 4 7Z"/></symbol>
-    <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M21 8.2a2.5 2.5 0 0 0-1.8-1.8C17.6 6 12 6 12 6s-5.6 0-7.2.4A2.5 2.5 0 0 0 3 8.2 26 26 0 0 0 2.6 12 26 26 0 0 0 3 15.8a2.5 2.5 0 0 0 1.8 1.8C6.4 18 12 18 12 18s5.6 0 7.2-.4a2.5 2.5 0 0 0 1.8-1.8 26 26 0 0 0 .4-3.8 26 26 0 0 0-.4-3.8Z"/><path d="m10 9 5 3-5 3V9Z"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.5L3 20.5l1.4-4.8a8.5 8.5 0 1 1 16.1-4.1Z"/><path d="m8.4 7.1-1 .4c-.7.3-.6 1.5-.3 2.3a10.5 10.5 0 0 0 6.5 6.1c.8.2 1.9.2 2.2-.5l.4-1-2.7-1.2-.8 1a7.7 7.7 0 0 1-3.5-3.3l.9-.9-1.2-2.9Z"/></symbol>
     <symbol id="i-max" viewBox="0 0 500 500">
       <defs>
         <radialGradient id="max-gradient-b" cx="0" cy="0" r="1" gradientTransform="matrix(378.9086 473.90374 -195.26028 156.1199 -11.895 -219.593)" gradientUnits="userSpaceOnUse"><stop stop-color="#00F"/><stop offset="1" stop-opacity="0"/></radialGradient>
@@ -55,7 +55,7 @@
   <aside class="floating-messengers" aria-label="Быстрая связь">
     <a href="https://max.ru/channel_Bohoparka" target="_blank" rel="noopener" aria-label="Написать в MAX"><svg class="max-icon" aria-hidden="true"><use href="#i-max"/></svg><span>MAX</span></a>
     <a href="https://t.me/boho_parka" target="_blank" rel="noopener" aria-label="Написать в Telegram"><svg aria-hidden="true"><use href="#i-tg"/></svg><span>Telegram</span></a>
-    <a href="mailto:bohoparka.official@gmail.com" aria-label="Написать на электронную почту"><svg aria-hidden="true"><use href="#i-mail"/></svg><span>Почта</span></a>
+    <a href="https://wa.me/79154062343" target="_blank" rel="noopener" aria-label="Написать в WhatsApp"><svg class="whatsapp-icon" aria-hidden="true"><use href="#i-whatsapp"/></svg><span>WhatsApp</span></a>
   </aside>
 
   <main id="content">
@@ -81,12 +81,12 @@
         <div class="concerns-copy"><p>Когда-то ваша мама блистала в этой шубке. Теперь ваша очередь! Шубка станет основой к новой парке.</p></div>
         <div class="concerns-photo-grid">
           <div class="concern-photo-pair">
-            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-01.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-01.jpg" alt="Мама в шубе до перекроя" loading="lazy"></button>
-            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-02.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-02.jpg" alt="Белая парка после перекроя" loading="lazy"></button>
+            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-01.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-01.jpg" alt="Шуба до перекроя" width="1194" height="1600" loading="lazy"></button>
+            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-02.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-02.jpg" alt="Белая парка после перекроя" width="1194" height="1600" loading="lazy"></button>
           </div>
           <div class="concern-photo-pair">
-            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-03.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-03.jpg" alt="Чёрная БОХО ПАРКА после перекроя" loading="lazy"></button>
-            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-04.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-04.jpg" alt="Старая мамина шуба" loading="lazy"></button>
+            <button class="image-button concern-photo-small" type="button" data-lightbox="assets/images/concern-04.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-04.jpg" alt="Старая мамина шуба" width="787" height="1600" loading="lazy"></button>
+            <button class="image-button concern-photo-main" type="button" data-lightbox="assets/images/concern-03.jpg" aria-label="Увеличить фотографию"><img src="assets/images/concern-03.jpg" alt="Чёрная БОХО ПАРКА после перекроя" width="893" height="1600" loading="lazy"></button>
           </div>
         </div>
       </div>
@@ -160,7 +160,20 @@
         <article class="why-feature"><div class="why-number">02</div><div class="why-copy"><h3>Большой выбор готовых верхних курток</h3><p>Вы сможете выбрать модель с вышивкой или без. Самые качественные плащевые ткани сегмента премиум: хлопковые, мембранные, плотные и совсем лёгкие, с авторскими принтами и расписанные вручную.</p></div><button class="image-button why-single-photo" type="button" data-lightbox="assets/images/color-choice-spec.jpg"><img src="assets/images/color-choice-spec.jpg" alt="Варианты готовых верхних курток" loading="lazy"></button></article>
         <article class="why-feature why-feature-dark"><div class="why-number">03</div><div class="why-copy"><h3>Универсальный крой</h3><p>Мужские модели тоже имеют право на жизнь! Мужская куртка в прошлом году побила рекорды по заказам.</p></div><div class="native-gallery native-gallery-tall" data-gallery-prefix="mens-spec" data-gallery-count="12" data-gallery-alt="Мужская парка"></div></article>
       </div>
-      <article class="why-feature why-feature-map"><div class="why-number">04</div><div class="why-copy"><h3>Удобная схема взаимодействия</h3><p>Вы можете приехать на примерку в Зеленоград. Либо общаемся онлайн. Более 70 процентов заказов приходит из регионов. Я очень подробно общаюсь по удобному вам виду связи. Делаю фото и видео. Могу прислать на примерку верхнюю парку.</p><a class="card-link" href="https://yandex.ru/maps/?text=Москва%2C%20Зеленоград%2C%20проезд%204807%2C%20д.%203%2C%20стр.%208" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg>Открыть маршрут</a></div><iframe class="map-frame" src="https://yandex.ru/map-widget/v1/?mode=search&text=Москва%2C%20Зеленоград%2C%20проезд%204807%2C%20д.%203%2C%20стр.%208&z=16" title="Карта проезда в мастерскую БОХО ПАРКА" loading="lazy" allowfullscreen></iframe></article>
+      <article class="why-feature why-feature-map">
+        <div class="why-number">04</div>
+        <div class="why-copy"><h3>Удобная схема взаимодействия</h3><p>Вы можете приехать на примерку в Зеленоград. Либо общаемся онлайн. Более 70 процентов заказов приходит из регионов. Я очень подробно общаюсь по удобному вам виду связи. Делаю фото и видео. Могу прислать на примерку верхнюю парку.</p><a class="card-link" href="https://yandex.com/maps/216/zelenograd/house/prospekt_generala_alekseyeva_16/Z04Ydw5lSk0FQFtsfXxxeHViYA==/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg>Открыть маршрут</a></div>
+        <div class="map-panel">
+          <div class="map-placeholder" data-map-placeholder>
+            <svg aria-hidden="true"><use href="#i-pin"/></svg>
+            <p class="map-address">Зеленоград, просп. Генерала Алексеева, 16</p>
+            <p>Для показа карты нужно разрешить загрузку Яндекс Карт. Сервис может использовать файлы cookie.</p>
+            <button class="cookie-button" type="button" data-map-consent>Разрешить и показать карту</button>
+            <noscript><p>Чтобы посмотреть карту, перейдите по ссылке «Открыть маршрут».</p></noscript>
+          </div>
+          <iframe class="map-frame" data-map-src="https://yandex.ru/map-widget/v1/?ll=37.195382%2C56.009914&amp;pt=37.195382%2C56.009914%2Cpm2rdm&amp;z=16" title="Зеленоград, просп. Генерала Алексеева, 16 — БОХО ПАРКА" loading="lazy" allowfullscreen hidden></iframe>
+        </div>
+      </article>
       <article class="why-feature why-feature-wide"><div class="why-number">05</div><div class="why-copy"><h3>Я лично веду работу с заказчиком</h3><p>Делаю много фото и видео из мастерской, помогая определиться с выбором парки, и остаюсь на связи после получения вами изделия.</p></div><div class="native-gallery" data-gallery-prefix="personal" data-gallery-count="9" data-gallery-skip="6" data-gallery-alt="Работа с заказчиком: изделие на вешалке и на человеке"></div></article>
       <article class="why-feature why-feature-wide why-feature-dark"><div class="why-number">06</div><div class="why-copy"><h3>Возможность виртуальной примерки</h3><p>Можно заранее увидеть, как выбранная модель будет смотреться на человеке.</p></div><div class="virtual-fitting-gallery"><button class="image-button" type="button" data-lightbox="assets/images/virtual-fitting-002.jpg"><img src="assets/images/virtual-fitting-002.jpg" alt="Том Харди без куртки" loading="lazy"></button><button class="image-button" type="button" data-lightbox="assets/images/virtual-fitting-001.jpg"><img src="assets/images/virtual-fitting-001.jpg" alt="Том Харди в парке" loading="lazy"></button></div></article>
     </section>
@@ -200,13 +213,18 @@
     </section>
 
     <section class="contacts section section-dark" id="contacts" aria-labelledby="contacts-title">
-      <div class="contact-copy"><h2 id="contacts-title">БОХО ПАРКА</h2><div class="contact-links"><a href="tel:+79154062343"><svg aria-hidden="true"><use href="#i-phone"/></svg><span>+7 (915) 406-23-43</span></a><a href="mailto:bohoparka.official@gmail.com"><svg aria-hidden="true"><use href="#i-mail"/></svg><span>bohoparka.official@gmail.com</span></a><a href="https://yandex.ru/maps/?text=Москва%2C%20Зеленоград%2C%20проезд%204807%2C%20д.%203%2C%20стр.%208" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg><span>124460, Москва, Зеленоград, проезд 4807, д. 3, стр. 8</span></a></div><div class="social-links" aria-label="Социальные сети"><a href="https://max.ru/channel_Bohoparka" target="_blank" rel="noopener" aria-label="MAX"><svg class="max-icon" aria-hidden="true"><use href="#i-max"/></svg></a><a href="https://t.me/boho_parka" target="_blank" rel="noopener" aria-label="Telegram"><svg aria-hidden="true"><use href="#i-tg"/></svg></a><a href="https://wtsp.cc/79154062343" target="_blank" rel="noopener" aria-label="WhatsApp"><svg aria-hidden="true"><use href="#i-phone"/></svg></a><a href="https://vk.com/bohoparka" target="_blank" rel="noopener" aria-label="ВКонтакте"><svg aria-hidden="true"><use href="#i-vk"/></svg></a><a href="https://www.youtube.com/channel/UCeJ-adLrxJH6ClPzHGKlp_w/featured" target="_blank" rel="noopener" aria-label="YouTube"><svg aria-hidden="true"><use href="#i-youtube"/></svg></a></div></div>
+      <div class="contact-copy"><h2 id="contacts-title">БОХО ПАРКА</h2><div class="contact-links"><a href="tel:+79154062343"><svg aria-hidden="true"><use href="#i-phone"/></svg><span>+7 (915) 406-23-43</span></a><a href="mailto:bohoparka.official@gmail.com"><svg aria-hidden="true"><use href="#i-mail"/></svg><span>bohoparka.official@gmail.com</span></a><a href="https://yandex.com/maps/216/zelenograd/house/prospekt_generala_alekseyeva_16/Z04Ydw5lSk0FQFtsfXxxeHViYA==/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg><span>Зеленоград, просп. Генерала Алексеева, 16</span></a></div><div class="social-links" aria-label="Социальные сети"><a href="https://max.ru/channel_Bohoparka" target="_blank" rel="noopener" aria-label="MAX"><svg class="max-icon" aria-hidden="true"><use href="#i-max"/></svg></a><a href="https://t.me/boho_parka" target="_blank" rel="noopener" aria-label="Telegram"><svg aria-hidden="true"><use href="#i-tg"/></svg></a><a href="https://wa.me/79154062343" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="whatsapp-icon" aria-hidden="true"><use href="#i-whatsapp"/></svg></a><a href="https://vk.com/bohoparka" target="_blank" rel="noopener" aria-label="ВКонтакте"><svg aria-hidden="true"><use href="#i-vk"/></svg></a></div></div>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="footer-identity"><img src="assets/images/logo-boho-parka-transparent.png" alt="БОХО ПАРКА" width="2600" height="1700"><div class="footer-details"><p>ИП Неклюдова Наталья Ивановна BOHO-PARKA</p><p>ИНН 773573837729, ОГРН 317774600403122</p><p>124482, г. Москва, г. Зеленоград, к. 531, кв. 58</p></div></div><a href="https://bohoparka.com/" target="_blank" rel="noopener">bohoparka.com</a><button type="button" data-scroll="top">Наверх <svg aria-hidden="true"><use href="#i-arrow"/></svg></button></footer>
+  <footer class="site-footer"><div class="footer-identity"><img src="assets/images/logo-boho-parka-transparent.png" alt="БОХО ПАРКА" width="2600" height="1700"><div class="footer-details"><p>ИП Неклюдова Наталья Ивановна BOHO-PARKA</p><p>ИНН 773573837729, ОГРН 317774600403122</p><p>124482, г. Москва, г. Зеленоград, к. 531, кв. 58</p></div></div><div class="footer-links"><a href="https://bohoparka.com/" target="_blank" rel="noopener">bohoparka.com</a><button type="button" data-cookie-settings>Настройки cookie</button></div><button type="button" data-scroll="top">Наверх <svg aria-hidden="true"><use href="#i-arrow"/></svg></button></footer>
+
+  <aside class="cookie-banner" data-cookie-banner aria-labelledby="cookie-title" hidden>
+    <div class="cookie-copy"><h2 id="cookie-title">Немного о cookie</h2><p>Сохраняем ваш выбор в браузере. Яндекс Карта может использовать cookie и загружается только с вашего согласия.</p></div>
+    <div class="cookie-actions"><button class="cookie-button cookie-button-secondary" type="button" data-cookie-choice="necessary">Только необходимые</button><button class="cookie-button" type="button" data-cookie-choice="accepted">Разрешить</button></div>
+  </aside>
 
   <dialog class="lightbox" id="lightbox" aria-label="Просмотр фотографии"><button class="lightbox-close" type="button" data-lightbox-close aria-label="Закрыть"><svg aria-hidden="true"><use href="#i-close"/></svg></button><button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Предыдущая фотография"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button><figure><img alt="" data-lightbox-image><figcaption data-lightbox-caption></figcaption></figure><button class="lightbox-nav lightbox-next" type="button" data-lightbox-next aria-label="Следующая фотография"><svg aria-hidden="true"><use href="#i-arrow"/></svg></button></dialog>
-  <script src="assets/js/main.js?v=20260908-10"></script>
+  <script src="assets/js/main.js?v=20260909-1"></script>
 </body>
 </html>

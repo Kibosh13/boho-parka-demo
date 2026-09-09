@@ -9,6 +9,83 @@
   const menuToggle = document.querySelector('[data-menu-toggle]');
   const navigation = document.getElementById('site-nav');
 
+  const cookieBanner = document.querySelector('[data-cookie-banner]');
+  const consentKey = 'boho-parka-cookie-consent-v1';
+  const mapFrames = document.querySelectorAll('[data-map-src]');
+  const mapPlaceholders = document.querySelectorAll('[data-map-placeholder]');
+  let consentReturnFocus = null;
+
+  const readConsent = () => {
+    try {
+      const value = window.localStorage.getItem(consentKey);
+      return value === 'accepted' || value === 'necessary' ? value : null;
+    } catch (_) {
+      return null;
+    }
+  };
+
+  const syncBannerHeight = () => {
+    const height = cookieBanner && !cookieBanner.hidden ? cookieBanner.getBoundingClientRect().height : 0;
+    body.style.setProperty('--cookie-banner-height', height + 'px');
+  };
+
+  const showCookieBanner = (show) => {
+    if (!cookieBanner) return;
+    cookieBanner.hidden = !show;
+    body.classList.toggle('cookie-banner-open', show);
+    syncBannerHeight();
+  };
+
+  const applyConsent = (choice) => {
+    const allowed = choice === 'accepted';
+    mapFrames.forEach((frame) => {
+      frame.hidden = !allowed;
+      if (allowed) {
+        if (!frame.hasAttribute('src')) frame.src = frame.dataset.mapSrc;
+      } else {
+        frame.removeAttribute('src');
+      }
+    });
+    mapPlaceholders.forEach((placeholder) => { placeholder.hidden = allowed; });
+    showCookieBanner(!choice);
+  };
+
+  const saveConsent = (choice) => {
+    try {
+      window.localStorage.setItem(consentKey, choice);
+    } catch (_) {}
+    applyConsent(choice);
+    if (consentReturnFocus) {
+      consentReturnFocus.focus({ preventScroll: true });
+      consentReturnFocus = null;
+    }
+  };
+
+  document.querySelectorAll('[data-cookie-choice]').forEach((button) => {
+    button.addEventListener('click', () => saveConsent(button.dataset.cookieChoice));
+  });
+  document.querySelectorAll('[data-map-consent]').forEach((button) => {
+    button.addEventListener('click', () => {
+      saveConsent('accepted');
+      if (mapFrames[0]) mapFrames[0].focus({ preventScroll: true });
+    });
+  });
+  document.querySelectorAll('[data-cookie-settings]').forEach((button) => {
+    button.addEventListener('click', () => {
+      consentReturnFocus = button;
+      showCookieBanner(true);
+      cookieBanner.querySelector('[data-cookie-choice]').focus({ preventScroll: true });
+    });
+  });
+  window.addEventListener('storage', (event) => {
+    if (event.key === consentKey || event.key === null) applyConsent(readConsent());
+  });
+  window.addEventListener('resize', syncBannerHeight, { passive: true });
+  if (cookieBanner && 'ResizeObserver' in window) {
+    new ResizeObserver(syncBannerHeight).observe(cookieBanner);
+  }
+  applyConsent(readConsent());
+
   const setHeaderState = () => {
     if (header) {
       header.classList.toggle('is-scrolled', window.scrollY > 28);
